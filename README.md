@@ -568,7 +568,7 @@ for i,column_name in enumerate(category_features):
 
 <font color='green'>**Observation** </font>:  We can see that classes per each categorical feature are highly imbalanced. Unfortunately, the data is not large enough to fix the imbalance is a smart way. and ***fixing it with a naive approach (replicating minority classes) did not help much***
 
-***Now we assign a one-hot encoding for eatch categorical feature***
+***Now we assign a one-hot encoding for each categorical feature***
 
 
 ```python
